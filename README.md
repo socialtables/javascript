@@ -1,6 +1,6 @@
 # How to do Javascript at Social Tables
 
-This is a living doc. As we decide on more principles and rules we will open issues, discuss the changes and improve.
+This is a living document. As we decide on more principles and rules we will open issues, discuss the changes, and improve.
 
 ## Principles
 
@@ -40,7 +40,7 @@ These our are guiding principles. If anything goes against these principles it s
 	if((score > 25) && (score < 50)){}
 	```
 
-* Functions should `do` and single `thing`
+* Functions should do a **single thing**:
 
 	```js
 	//good
@@ -67,11 +67,10 @@ These our are guiding principles. If anything goes against these principles it s
 
 ## Rules
 
-None for now. Lets put these guidelines into practices and start finding rules.
+None for now. Lets put these guidelines into practice and start finding rules.
 
 ## Reading
 
 * [Airbnb](https://github.com/airbnb/javascript)
 * [Node Style Guide](https://github.com/felixge/node-style-guide)
 * [Google's Guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-
