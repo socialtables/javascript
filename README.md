@@ -40,7 +40,7 @@ These our are guiding principles. If anything goes against these principles it s
 	if((score > 25) && (score < 50)){}
 	```
 
-* Functions should `do` and single `thing`
+* Functions should `do` a single `thing`
 
 	```js
 	//good
