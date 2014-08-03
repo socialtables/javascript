@@ -32,12 +32,14 @@ These our are guiding principles. If anything goes against these principles it s
 	/*************************/
 
 	//good
-	var scoreIsGreaterThan25 = score > 25;
-	var scoreIsLessThan50 = score < 50;
-	if(scoreIsGreaterThan25 && scoreIsLessThan50){}
+	var thereAreResults = (results.length > 0);
+    var resultHasUserField = (results[0].user != undefined);
+    var errorMessageAvailable = (results.error && results.error.message);
+
+    if ((thereAreResults && resultHasUserField) || errorMessageAvailable) {
 
 	//bad
-	if((score > 25) && (score < 50)){}
+	if (((results.length > 0) && (results[0].user)) || (results.error && results.error.message))
 	```
 
 * Functions should `do` a single `thing`
@@ -74,4 +76,3 @@ None for now. Lets put these guidelines into practices and start finding rules.
 * [Airbnb](https://github.com/airbnb/javascript)
 * [Node Style Guide](https://github.com/felixge/node-style-guide)
 * [Google's Guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-
