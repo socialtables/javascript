@@ -65,13 +65,13 @@ These our are guiding principles. If anything goes against these principles it s
 	}
 	```
 
-## Rules
+## General Rules
 
-None for now. Lets put these guidelines into practices and start finding rules.
+- [Early returns should be questioned](./early-returns.md)
+- [If/else nesting considered harmful](./if-else-nesting.md)
 
 ## Reading
 
 * [Airbnb](https://github.com/airbnb/javascript)
 * [Node Style Guide](https://github.com/felixge/node-style-guide)
 * [Google's Guide](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-
